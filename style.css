@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: rgb(16, 99, 105);
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 50px;
+  font-size: 60px;
+  font-family: monospace;
+  margin: 100px;
+  color: bisque;
+}
+h2 {
+  color: bisque;
+}
+div {
+  display: inline-block;
+  width: 400px;
+  height: 380px;
+  background-color: rgba(0, 8, 26, 0.596);
+  border-radius: 30px;
+  border-style: hidden;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+  border-radius: 20px;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+.red {
+  background-color: rgb(189, 7, 7);
+}
+.green {
+  background-color: rgb(35, 190, 35);
+}
+.blue {
+  background-color: rgb(18, 86, 189);
+}
+.yellow {
+  background-color: orange;
+}
+
+.pressed {
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+}
+
+.lose {
+  background-color: red;
+}
